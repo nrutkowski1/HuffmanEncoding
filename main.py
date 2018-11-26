@@ -377,4 +377,4 @@ class Huffman(Tree):
 # h = Huffman()
 # h.encode('text.txt', 'encoded.bin')
 # h.decode('encoded.bin', 'decoded')
-# h.view_tree(h.get_tree())
+# h.view_tree(h.get_data())
