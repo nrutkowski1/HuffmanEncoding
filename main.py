@@ -31,7 +31,7 @@ class Huffman(Tree):
 
     def building_tree(self, inpt):
 
-        characters = '"AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz 1234567890!@#$%^&*()-_+={}[]\|<>,.?/~`'
+        characters = '\'"AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz 1234567890!@#$%^&*()-_+={}[]\|<>,.?/~`\n'
 
         # arrays to hold the counted characters and the trees
         chars_count = []
